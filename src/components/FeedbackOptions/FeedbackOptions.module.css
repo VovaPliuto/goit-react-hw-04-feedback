@@ -1,0 +1,19 @@
+.buttonsBlock {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #ffffff;
+  border: 1px solid #808080;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button::first-letter {
+  text-transform: uppercase;
+}
+
+button:active {
+  background-color: #7d7dff;
+}
